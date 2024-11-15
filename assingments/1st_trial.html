@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1st Website</title>
+ <style>
+    .head1 {
+background-color: aqua;
+color: black;
+    }
+    .head2, .head3, .head4, .head5, .head6, .head7, .head8, .head9{
+            background-color: #29354d; color:  #f5a425;
 
+
+
+
+    }
+
+ </style>
 
 </head>
 <body>
-<h1>Basics of HTML</h1>
+<h1 class="head1">Basics of HTML</h1>
 <pre>In this website we are learning about basics of HTML, those are ;
     # Basic structure of HTML
     # Types of headings in HTML
@@ -17,15 +30,36 @@
     # Div and Span 
     # Class Attributes 
     # Id attribute
-    # Bookmarking
+    # Bookmarking 
+<hr>
+<h3 style="font-size: x-large;background-color: black;color: aliceblue;">Click on the below links to go to that topic </h3>
 </pre>
+<a href="#Basic">Basic structure</a> <br>
+<a href="#Types of headlines">Types of Headlines</a> <br>
+<a href="#Attributes">Attributes</a> <br>
+<a href="#Blockline and Inline">Blockline and Inline</a> <br>
+<a href="#Div and Span">Div and Span</a> <br>
+<a href="#Class attribute">Class attribute</a><br>
+<a href="#Id attribute">Id attribute</a><br>
+<a href="#Bookmarking">Bookmarking with HTML</a><br>
+
+    <h2 id="Basic"><span class="head2">Basic HTML structure</span></h2> 
+    <h3>This is the basic structure of HTML</h3>
+   <section> <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang="en"&gt;
+          &lt;head&gt;
+             &lt;title&gt;My Website&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
+            &lt;h1&gt;Welcome to My Website&lt;/h1&gt;
+            &lt;p&gt;This is some content.&lt;/p&gt;
+          &lt;/body&gt;
+        &lt;/html&gt;
+                </pre> </section>
 
 
-
-    <h2>Basic HTML structure</h2> 
-
-
-    <h2>Types of headingsin HTML </h2>
+    <section><h2 id="Types of headlines"><span class="head3">Types of headingsin HTML</span> </h2>
    There are six types of heading from h1 to h6 which varies by sizes
       <div></div>  <h1>Heading 1 </h1> 
         <h2>Heading 2</h2>
@@ -35,15 +69,15 @@
         <h6>Heading 6</h6> </div>
          
         <p>So heading 1 is largest and <br> <!-- br tag breaks the line and create new line -->
-           heading 6 is smallest</p>
+           heading 6 is smallest</p> </section>
 <hr>
 
-    <h2>Attributes</h2>
+<section> <h2 id="Attributes"><span class="head4">Attributes</span></h2>
     CSS Attributes are added to decorate the website by using bg colour,
-    text colour,adding border etc.
+    text colour,adding border etc. </section>
 <hr>
 
-<h1>Blockline and Inline </h1> 
+<h1 id="Blockline and Inline"><span class="head5">Blockline and Inline </span></h1> 
 <p> with respect to displaying browser HTML element have 2 elements <br> </p>
 
 <h2>1.Block level</h2>
@@ -54,7 +88,9 @@
 <p>#it does not require new line to start</p>
 <p># it dont take full width of line </p>
 <hr>
-<h1>Div and Span</h1>
+
+
+<h1 id="Div and Span"><span class="head6">Div and Span </span></h1>
 <h3>Div</h3> 
 <pre>
 # it is Blockline element
@@ -84,7 +120,7 @@
 <hr>
 
 
-<h1>Class attribute</h1>
+<h1 id="Class attribute"><span class="head7">Class attribute</span></h1>
 <h2 class="python"> Class </h2>
 <pre>
 # class is the attribute,that can be used with every HTML element
@@ -97,7 +133,7 @@
 
 <hr>
 
-<h1>Id attribute</h1>
+<h1 id="Id attribute"><span class="head8">Id attribute</span></h1>
 <pre>
 #ID is used to identify a HTML element uniquely
 #ID is used to apply CSS styles on the HTML element
@@ -114,7 +150,7 @@
 <hr>
 
 
-<h1>Bookmarking with ID and Hyperlinks in HTML</h1>
+<h1 id="Bookmarking"><span class="head9">Bookmarking with ID and Hyperlinks in HTML </span></h1>
 <pre class="pre1">
 # We used bookmarking with ID and HTML Hyperlimks when;
 # When page have more content
