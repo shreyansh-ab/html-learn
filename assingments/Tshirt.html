@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+.heading{
+margin-left: 400px;
+background-color: #29354d;
+color: #f5a425;
+}
+.form{
+border: 2px solid cadetblue;
+}
+input{
+margin-left: 10px;
+
+}
+label{
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.button{
+    margin-left: 500px;
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+</style>
+
+</head>
+<body>
+    <h2><span class="heading">Form for TECHVRITTI T-shirt</span></h2>
+<form class="form">
+<label for="Name">Name:</label>
+<input type="text" > <br> <br>
+<label for="Team">Team: </label>
+<select name="team" id="team">
+    <option value="Full stack">Full stack</option>
+    <option value="Marketing">Marketing</option>
+    <option value="Designing">Graphic Designing</option>
+    <option value="seniors">MCA/M.Tech</option>
+</select> <br> <br>
+<label for="Email">Email:</label>
+<input type="email"> <br> <br>
+
+<label for="Choice">Do you need T-Shirt :</label>
+<input type="radio">YES 
+<input type="radio" disabled>NO
+
+<br><br><label for="Size">Size:</label>
+<select name="Size" id="Size">
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="XM">XM</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+</select> <br> <br>
+
+<label for="file">File:</label>
+<input type="file">(Upload receipt of payment of below 2kb)
+</form>
+<button class="button">Submit</button>
+</body>
+</html>

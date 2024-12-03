@@ -1,0 +1,81 @@
+.main{
+    background-color: black;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    }
+    .header{background-color: aqua;
+    height:100px;
+    width: 500px;
+    }
+    .img{
+    float: left;
+    margin-top: 1px;
+    }
+    
+    .nav{
+    height: 30px;
+    width: 120px;
+    float: right;
+    margin-top: 70px;
+    background-color: rgb(240, 81, 18);
+    
+    
+    }
+    
+    .main_area {
+    background-color: chartreuse;
+    height: 200px;
+    float: left;
+    color: aqua;
+    }
+    
+    .aside{
+    background-color: gray;
+    height: 200px;
+    width: 100px;
+    float: left;
+    }
+    .main_content{
+    background-color: cadetblue;
+    height: 200px;
+    width: 400px;
+    float: left;
+    }
+    
+    .section1{
+        background-color: brown;
+        height: 50px;
+        width: 200px;
+       align-content: center;
+       text-align: center;
+       margin-bottom: 5px;
+       margin-left: 100px;
+       border: 3px solid black;
+    }
+    .section2{
+        background-color:tomato;
+        height: 50px;
+        width: 200px;
+        align-content: center;
+        text-align: center;
+        margin-left: 100px;
+        border: 3px solid black;
+    }
+    .section3{
+        background-color: yellowgreen;
+        height: 50px;
+        width: 200px;
+        align-content: center;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 100px;
+        border: 3px solid black;
+    }
+    .footer{background-color: red;
+    height:100px;
+    width: 500px;
+    clear: both;
+    }
+   
+    
