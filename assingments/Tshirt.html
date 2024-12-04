@@ -10,31 +10,35 @@
 margin-left: 400px;
 background-color: #29354d;
 color: #f5a425;
+border: 4px double yellow;
 }
+
 .form{
-border: 2px solid cadetblue;
+border: 5px double cadetblue;
+background-color: rgba(238, 221, 195,30%);
 }
 input{
 margin-left: 10px;
-
+color: black;
 }
+
 label{
     margin-left: 10px;
     margin-top: 10px;
-    
+    color: aliceblue;
 }
 
 .button{
     margin-left: 500px;
     background-color: aqua;
-    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
     margin-top: 10px;
 }
 
 </style>
 
 </head>
-<body>
+<body style="background-color:gray ;">
     <h2><span class="heading">Form for TECHVRITTI T-shirt</span></h2>
 <form class="form">
 <label for="Name">Name:</label>
@@ -51,7 +55,7 @@ label{
 
 <label for="Choice">Do you need T-Shirt :</label>
 <input type="radio">YES 
-<input type="radio" disabled>NO
+<input type="radio"  disabled>NO
 
 <br><br><label for="Size">Size:</label>
 <select name="Size" id="Size">
@@ -63,8 +67,8 @@ label{
 </select> <br> <br>
 
 <label for="file">File:</label>
-<input type="file">(Upload receipt of payment of below 2kb)
+<input type="file"><div style="color: aliceblue;">(Upload receipt of payment of below 2kb) </div>
 </form>
-<button class="button">Submit</button>
+<button  class="button">Submit</button>
 </body>
 </html>
